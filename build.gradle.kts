@@ -9,15 +9,6 @@ repositories {
 }
 dependencies {
     api("jakarta.validation:jakarta.validation-api:3.0.2")
-    testImplementation("org.testng:testng:6.14.3")
-    testImplementation("org.assertj:assertj-core:3.24.2")
-    testImplementation("org.hibernate.validator:hibernate-validator:6.2.0.Final") 
-    testImplementation("jakarta.validation:jakarta.validation-api:2.0.2")  // Jakarta validation API
-    testImplementation("org.hibernate.validator:hibernate-validator:6.2.0.Final")  // Hibernate Validator compatible with Java 8
-    testImplementation("org.glassfish:javax.el:3.0.0") 
-}
-tasks.test {
-    useTestNG()
 }
 java {
     toolchain {
